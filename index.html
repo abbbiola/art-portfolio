@@ -446,133 +446,143 @@ body::-webkit-scrollbar-thumb:hover {
         <div class="sort-bar">
           <label for="sortDrawings">Sort by:</label>
           <select id="sortDrawings" onchange="sortWorks(this.value, 'drawings')">
-             <option value="name">name (a-z)</option>
+            <option value="name">name (a-z)</option>
             <option value="recent">recently made</option>
             <option value="date">date (oldest-newest)</option>
           </select>
         </div>
+
         <div class="works-container">
           <div class="work-item" data-date="2023" data-name="bermuda in passing">
             <div class="work-image">
               <img src="images/bermuda in passing.jpg" alt="Charcoal sketch of Bermuda landscape, drawn quickly from a moving vehicle to capture a fleeting moment." onclick="openModal(this)" />
             </div>
-              <div class="work-details">
-                <h3 class="work-title">bermuda in passing</h3>
-                <p class="work-medium">charcoal on paper, 2023</p>
-                <p class="work-description">I made this while on a tour of the island, my sketchbook balanced on my lap, and charcoal smudging under my fingers as the island moved past. It wasn't a planned piece, more like a passing moment I felt the need to capture before it disappeared.</p>
-              </div>
+            <div class="work-details">
+              <h3 class="work-title">bermuda in passing</h3>
+              <p class="work-medium">charcoal on paper, 2023</p>
+              <p class="work-description">I made this while on a tour of the island, my sketchbook balanced on my lap, and charcoal smudging under my fingers as the island moved past. It wasn't a planned piece, more like a passing moment I felt the need to capture before it disappeared.</p>
             </div>
-            <div class="work-item" data-date="2023" data-name="identity stripes">
-              <div class="work-image">
-                <img src="images/zebra.JPG" alt="Chalk pastel drawing of a zebra, symbolizing blurred identity and cultural adaptation." onclick="openModal(this)" />
-              </div>
-              <div class="work-details">
-                <h3 class="work-title">identity stripes</h3>
-                <p class="work-medium">chalk pastel on paper, 2023</p>
-                <p class="work-description">This piece started with a pronunciation debate: "zeh-bruh" vs "zee-bruh." It reminded me of how much I had to relearn after moving countries. Zebra stripes blur into each other, and so do the different parts of my identity.</p>
-              </div>
-            </div>
-            <div class="work-item" data-date="2025" data-name="panda">
-              <div class="work-image">
-                <img src="images/panda.jpg" alt="Charcoal drawing of a panda, rendered in a soft impressionist style to convey gentleness." onclick="openModal(this)" />  
-              </div>
-              <div class="work-details">
-                <h3 class="work-title">panda</h3>
-                <p class="work-medium">charcoal on paper, 2025</p>
-                <p class="work-description">This was a fun piece to do. I wanted to capture the panda's gentle nature with my version of impressionism without focusing on too much detail, keeping it soft and loose.</p>
-              </div>
-            </div>
-            <div class="work-item" data-date="2023" data-name="pears study">
-              <div class="work-image">
-                <img src="images/pears.jpg" alt="Charcoal drawing of two pears, focusing on soft shading and gentle highlights." onclick="openModal(this)" />
-              </div>
-              <div class="work-details">
-                <h3 class="work-title">pears study</h3>
-                <p class="work-medium">charcoal on paper, 2023</p>
-                <p class="work-description">A simple study of two pears. I wanted to practice soft shading and gentle highlights, keeping the composition quiet and understated.</p>
-              </div>
-            </div>
-            <div class="work-item" data-date="2023" data-name="pineapple study">
-              <div class="work-image">
-                <img src="images/pineapple.jpg" alt="Charcoal study of a pineapple, focusing on texture and light." onclick="openModal(this)" />
-              </div>
-              <div class="work-details">
-                <h3 class="work-title">pineapple study</h3>
-                <p class="work-medium">charcoal on paper, 2023</p>
-              </div>
-               </div>
-            <div class="work-item" data-date="2025" data-name="retina">
-              <div class="work-image">
-                <img src="images/lovers eye.jpg" alt="Charcoal drawing of a single eye." onclick="openModal(this)" />
-              </div>
-              <div class="work-details">
-                  <h3 class="work-title">retina</h3>
-                  <p class="work-medium">charcoal on paper, 2025</p>
-                  <p class="work-description">This is a charcoal drawing of the eye of someone I care deeply about. I focused on capturing the details like the lashes, the light in the iris—because those are the things that stayed with me. The rest of the piece is looser, more impressionistic, which felt right.</p>
-                </div>
-            </div>
-            <div class="work-item" data-date="2023" data-name="sundae in a cup?">
-              <div class="work-image">
-                <img src="images/icecream glass.jpg" alt="Colour pencil drawing of a glass with ice cream sundae, focusing on reflections and transparency." onclick="openModal(this)" />
-              </div>
-              <div class="work-details">
-                <h3 class="work-title">sundae in a cup?</h3>
-                <p class="work-medium">colour pencil on paper, 2023</p>
-                <p class="work-description">A study of glass and reflections. I wanted to practice capturing transparency and the way light bends through curved surfaces. I'm not quite sure what's in the glass cup but there were so many elements which were fun to draw! I added a 'messy' pencil background to make the main subject stand out.</p>
-              </div>
-            </div>
-            <div class="work-item" data-date="2023" data-name="the observer">
-              <div class="work-image">
-                <img src="images/camera.JPG" alt="Charcoal drawing titled 'the observer' showing a camera as a metaphor for quiet observation and adaptation." onclick="openModal(this)" />
-              </div>
-              <div class="work-details">
-                <h3 class="work-title">the observer</h3>
-                <p class="work-medium">charcoal on paper, 2023</p>
-                <p class="work-description">This piece reflects the time when I first moved to America and felt the need to blend in. I became quiet for the first few years, intentionally watching like a camera capturing moments. I studied how people spoke, moved, and interacted, then replayed those moments in my head at home, practicing how to fit in. This drawing is a tribute to that version of me, the one who observed to adapt, to belong.</p>
-              </div>
-            </div>
-            <div class="work-item" data-date="2024" data-name="what remains">
-              <div class="work-image">
-                <img src="images/skull.JPG" alt="Charcoal drawing of a human skull, exploring shared human foundations and technical rendering." onclick="openModal(this)" />
-              </div>
-              <div class="work-details">
-                <h3 class="work-title">what remains</h3>
-                <p class="work-medium">charcoal on paper, 2024</p>
-                <p class="work-description">Honestly, I chose the skull as a subject partly because I really wanted to push my rendering skills; getting those technical details and the way light and shadow play across bone is something I very much enjoy. But the more time I spent on it, the more I couldn't help but notice how I felt towards it. What remains is a reminder of how we all have a shared foundation no matter how different we may appear on the outside. We all return to this fundamental structure at the end.</p>
-              </div>
-            </div>
-             <div class="work-item" data-date="2023" data-name="untitled study">
-              <div class="work-image">
-                <img src="images/gesture.jpg" alt="White charcoal gesture study on black paper, capturing movement and form." onclick="openModal(this)" />
-              </div>
-              <div class="work-details">
-                <h3 class="work-title">untitled study</h3>
-                <p class="work-medium">white charcoal on black paper, 2023</p>
-              </div>
           </div>
-          <div class="work-item" data-date="2025" data-name="afroDrawing">
-  <div class="work-image">
-    <img src="images/afroDrawing.jpeg" alt="Charcoal drawing of a figure looking upward, with light falling across the neck and face." onclick="openModal(this)" />
-  </div>
-  <div class="work-details">
-    <h3 class="work-title">ascension</h3>
-    <p class="work-medium">charcoal on paper, 2025</p>
-    <p class="work-description">
-      I made this while thinking about what it feels like to stop shrinking yourself. The upward tilt wasn't planned, but once it was there, it felt honest. The neck is exposed, which makes the figure vulnerable, but also open. It feels like a quiet decision to exist fully, without lowering yourself or looking away.    </p>
-  </div>
-</div>
-<div class="work-item" data-date="2025" data-name="backDrawing">
-  <div class="work-image">
-    <img src="images/backDrawing.jpeg" alt="Charcoal drawing of a figure shown from the back, emphasizing posture and light." onclick="openModal(this)" />
-  </div>
-  <div class="work-details">
-    <h3 class="work-title">bearing</h3>
-    <p class="work-medium">charcoal on paper, 2025</p>
-    <p class="work-description">
-      This piece came from observing how much can be felt without seeing someone's face. The back holds tension in a different way. It made me think about all the versions of myself that learned to be smaller, quieter, more careful. This figure isn't hiding, but it isn't performing either. It's just existing, and that feels important.    </p>
-  </div>
-</div>
 
+          <div class="work-item" data-date="2023" data-name="identity stripes">
+            <div class="work-image">
+              <img src="images/zebra.JPG" alt="Chalk pastel drawing of a zebra, symbolizing blurred identity and cultural adaptation." onclick="openModal(this)" />
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">identity stripes</h3>
+              <p class="work-medium">chalk pastel on paper, 2023</p>
+              <p class="work-description">This piece started with a pronunciation debate: "zeh-bruh" vs "zee-bruh." It reminded me of how much I had to relearn after moving countries. Zebra stripes blur into each other, and so do the different parts of my identity.</p>
+            </div>
+          </div>
+
+          <div class="work-item" data-date="2025" data-name="panda">
+            <div class="work-image">
+              <img src="images/panda.jpg" alt="Charcoal drawing of a panda, rendered in a soft impressionist style to convey gentleness." onclick="openModal(this)" />  
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">panda</h3>
+              <p class="work-medium">charcoal on paper, 2025</p>
+              <p class="work-description">This was a fun piece to do. I wanted to capture the panda's gentle nature with my version of impressionism without focusing on too much detail, keeping it soft and loose.</p>
+            </div>
+          </div>
+
+          <div class="work-item" data-date="2023" data-name="pears study">
+            <div class="work-image">
+              <img src="images/pears.jpg" alt="Charcoal drawing of two pears, focusing on soft shading and gentle highlights." onclick="openModal(this)" />
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">pears study</h3>
+              <p class="work-medium">charcoal on paper, 2023</p>
+              <p class="work-description">A simple study of two pears. I wanted to practice soft shading and gentle highlights, keeping the composition quiet and understated.</p>
+            </div>
+          </div>
+
+          <div class="work-item" data-date="2023" data-name="pineapple study">
+            <div class="work-image">
+              <img src="images/pineapple.jpg" alt="Charcoal study of a pineapple, focusing on texture and light." onclick="openModal(this)" />
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">pineapple study</h3>
+              <p class="work-medium">charcoal on paper, 2023</p>
+            </div>
+          </div>
+
+          <div class="work-item" data-date="2025" data-name="retina">
+            <div class="work-image">
+              <img src="images/lovers eye.jpg" alt="Charcoal drawing of a single eye." onclick="openModal(this)" />
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">retina</h3>
+              <p class="work-medium">charcoal on paper, 2025</p>
+              <p class="work-description">This is a charcoal drawing of the eye of someone I care deeply about. I focused on capturing the details like the lashes, the light in the iris—because those are the things that stayed with me. The rest of the piece is looser, more impressionistic, which felt right.</p>
+            </div>
+          </div>
+
+          <div class="work-item" data-date="2023" data-name="sundae in a cup?">
+            <div class="work-image">
+              <img src="images/icecream glass.jpg" alt="Colour pencil drawing of a glass with ice cream sundae, focusing on reflections and transparency." onclick="openModal(this)" />
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">sundae in a cup?</h3>
+              <p class="work-medium">colour pencil on paper, 2023</p>
+              <p class="work-description">A study of glass and reflections. I wanted to practice capturing transparency and the way light bends through curved surfaces. I'm not quite sure what's in the glass cup but there were so many elements which were fun to draw! I added a 'messy' pencil background to make the main subject stand out.</p>
+            </div>
+          </div>
+
+          <div class="work-item" data-date="2023" data-name="the observer">
+            <div class="work-image">
+              <img src="images/camera.JPG" alt="Charcoal drawing titled 'the observer' showing a camera as a metaphor for quiet observation and adaptation." onclick="openModal(this)" />
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">the observer</h3>
+              <p class="work-medium">charcoal on paper, 2023</p>
+              <p class="work-description">This piece reflects the time when I first moved to America and felt the need to blend in. I became quiet for the first few years, intentionally watching like a camera capturing moments. I studied how people spoke, moved, and interacted, then replayed those moments in my head at home, practicing how to fit in. This drawing is a tribute to that version of me, the one who observed to adapt, to belong.</p>
+            </div>
+          </div>
+
+          <div class="work-item" data-date="2024" data-name="what remains">
+            <div class="work-image">
+              <img src="images/skull.JPG" alt="Charcoal drawing of a human skull, exploring shared human foundations and technical rendering." onclick="openModal(this)" />
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">what remains</h3>
+              <p class="work-medium">charcoal on paper, 2024</p>
+              <p class="work-description">Honestly, I chose the skull as a subject partly because I really wanted to push my rendering skills; getting those technical details and the way light and shadow play across bone is something I very much enjoy. But the more time I spent on it, the more I couldn't help but notice how I felt towards it. What remains is a reminder of how we all have a shared foundation no matter how different we may appear on the outside. We all return to this fundamental structure at the end.</p>
+            </div>
+          </div>
+
+          <div class="work-item" data-date="2023" data-name="untitled study">
+            <div class="work-image">
+              <img src="images/gesture.jpg" alt="White charcoal gesture study on black paper, capturing movement and form." onclick="openModal(this)" />
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">untitled study</h3>
+              <p class="work-medium">white charcoal on black paper, 2023</p>
+            </div>
+          </div>
+
+          <!-- newly added drawings -->
+          <div class="work-item" data-date="2025" data-name="afroDrawing">
+            <div class="work-image">
+              <img src="images/afroDrawing.jpeg" alt="Charcoal drawing of a figure looking upward, with light falling across the neck and face." onclick="openModal(this)" />
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">ascension</h3>
+              <p class="work-medium">charcoal on paper, 2025</p>
+              <p class="work-description">I made this while thinking about what it feels like to stop shrinking yourself. The upward tilt wasn't planned, but once it was there, it felt honest. The neck is exposed, which makes the figure vulnerable, but also open. It feels like a quiet decision to exist fully, without lowering yourself or looking away.</p>
+            </div>
+          </div>
+
+          <div class="work-item" data-date="2025" data-name="backDrawing">
+            <div class="work-image">
+              <img src="images/backDrawing.jpeg" alt="Charcoal drawing of a figure shown from the back, emphasizing posture and light." onclick="openModal(this)" />
+            </div>
+            <div class="work-details">
+              <h3 class="work-title">bearing</h3>
+              <p class="work-medium">charcoal on paper, 2025</p>
+              <p class="work-description">This piece came from observing how much can be felt without seeing someone's face. The back holds tension in a different way. It made me think about all the versions of myself that learned to be smaller, quieter, more careful. This figure isn't hiding, but it isn't performing either. It's just existing, and that feels important.</p>
+            </div>
+          </div>
         </div>
       </section>
 
